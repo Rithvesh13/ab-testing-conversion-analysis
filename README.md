@@ -36,10 +36,15 @@ Raw Data → Data Cleaning → Conversion Rate Analysis → Statistical Testing 
 ```
 ab-testing-conversion-analysis/
 │
-├── ab_test.py # Python script for A/B test analysis
-├── ab_data.csv # Sample dataset
-├── conversion_rate_chart.png # Screenshot of conversion rate chart
-└── README.md # Project overview
+├── data/
+│   └── ab_data.csv
+│
+├── images/
+│   └── conversion_rate_chart.png
+│
+├── ab_test.py
+└── README.md
+
 ```
 
 ---
@@ -79,7 +84,7 @@ ab-testing-conversion-analysis/
 
 ## 📊 Visualization
 
-![Conversion Rate Chart](conversion_rate_chart.png)
+![Conversion Rate Chart](images/conversion_rate_chart.png)
 
 > The chart visually compares conversion rates between control and treatment groups.
 
