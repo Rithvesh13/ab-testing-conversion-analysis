@@ -7,7 +7,7 @@ print("--- A/B Test Analysis Started ---")
 # 1. LOAD DATA
 # Reading the CSV file
 try:
-    df = pd.read_csv(r'C:\Users\Rithvesh\OneDrive\Documents\ab-testing-conversion-analysis\ab_data.csv')
+    df = pd.read_csv("ab_data.csv")
     print("Data loaded successfully.")
     print(f"Total rows in raw data: {len(df)}")
 except FileNotFoundError:
